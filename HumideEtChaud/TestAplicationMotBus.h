@@ -33,5 +33,4 @@ class TestAplicationMotBus : public QObject {
         void BrotherImStuck( quint16 startAddress, QVector<quint16> values );
         void lectureTout();
         void onModbusSentence(quint16 startAddress, QVector<bool> values);
-
 };
